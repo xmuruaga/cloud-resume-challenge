@@ -6,9 +6,11 @@ This is a sample template for cloud-resume-challenge - Below is a brief explanat
 .
 ├── Makefile                    <-- Make to automate build
 ├── README.md                   <-- This instructions file
-├── hello-world                 <-- Source code for a lambda function
-│   ├── main.go                 <-- Lambda function code
-│   └── main_test.go            <-- Unit tests
+├── get-function                <-- Source code for Get lambda function
+│   └── main.go                 <-- Lambda function code
+├── put-function                <-- Source code for Put lambda function
+│   └── main.go                 <-- Lambda function code
+├── resume-site                 <-- Front-end website to host CV
 └── template.yaml
 ```
 
